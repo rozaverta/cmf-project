@@ -8,6 +8,12 @@
 		"anaconda"
 	],
 	"type": "project",
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/rozaverta/cmf.git"
+		}
+	],
 	"require": {
 		"php": ">=7.0",
 		"rozaverta/cmf": "0.0.1-beta"
@@ -15,8 +21,19 @@
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "goshav",
+			"name": "GoshaV [Maniako]",
 			"email": "gosha@rozaverta.com"
 		}
-	]
+	],
+	"scripts": {
+		"post-package-install": [
+			"EApp\\System\\ScriptHandler::packageEvent"
+		],
+		"post-package-update": [
+			"EApp\\System\\ScriptHandler::packageEvent"
+		],
+		"pre-package-uninstall": [
+			"EApp\\System\\ScriptHandler::packageEvent"
+		]
+	}
 }
