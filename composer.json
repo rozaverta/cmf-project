@@ -1,0 +1,22 @@
+{
+	"name": "rozaverta/cmf-project",
+	"description": "A minimal Elastic-CMF (Anaconda) project recommended to create bare bones applications",
+	"keywords": [
+		"cmf",
+		"framework",
+		"elastic",
+		"anaconda"
+	],
+	"type": "project",
+	"require": {
+		"php": ">=7.0",
+		"rozaverta/cmf": "0.0.1-beta"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "goshav",
+			"email": "gosha@rozaverta.com"
+		}
+	]
+}
