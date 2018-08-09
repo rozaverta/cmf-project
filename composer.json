@@ -32,6 +32,9 @@
 		"post-package-update": [
 			"EApp\\System\\ScriptHandler::packageEvent"
 		],
+		"pre-package-update": [
+			"EApp\\System\\ScriptHandler::packageEvent"
+		],
 		"pre-package-uninstall": [
 			"EApp\\System\\ScriptHandler::packageEvent"
 		]
