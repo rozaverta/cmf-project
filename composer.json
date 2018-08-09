@@ -16,7 +16,7 @@
 	],
 	"require": {
 		"php": ">=7.0",
-		"rozaverta/cmf": "0.0.1-beta"
+		"rozaverta/cmf": "0.0.1-beta2"
 	},
 	"license": "MIT",
 	"authors": [
