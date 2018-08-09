@@ -26,8 +26,8 @@
 		}
 	],
 	"scripts": {
-		"post-package-install": [
-			"EApp\\System\\ScriptHandler::packageEvent"
+		"cmf-init": [
+			"EApp\\System\\ScriptHandler::initEvent"
 		],
 		"post-package-update": [
 			"EApp\\System\\ScriptHandler::packageEvent"
